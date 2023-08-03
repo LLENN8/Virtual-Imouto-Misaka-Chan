@@ -29,8 +29,16 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
 3. Install the required dependencies: (mention any specific command if applicable, for example: `pip install -r requirements.txt`)
 4. Run the main script: `Chat APP.py`
 5. Run VoiceVox Docker image if you wanna Misaka Chan response with Voice (Please Enable VoiceVox Check Box on GUI APP). The commannd Below:
+
+
     cpu : 
+
+
     `docker run --rm -it -p 50021:50021 voicevox voicevox_engine:cpu-ubuntu20.04-latest`
+
+
     gpu : 
+
+    
     `docker run --rm --gpus all -p 50021:50021 voicevox/voicevox_engine:nvidia-ubuntu20.04-latest`
  
