@@ -9,6 +9,7 @@ Virtual AI Imouto Misaka Chan is a simple Virtual AI Little Sister that implemen
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Others](#others)
 
 ## Introduction
 
@@ -33,7 +34,7 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
     pip install -r requirements.txt
     ```
 4. Run the main script: `Chat APP.py`
-5. Run VoiceVox Docker image if you wanna Misaka Chan response with Voice (Please Enable VoiceVox Check Box on GUI APP). The commannd Below:
+5. Run VoiceVox Docker image if you wanna Misaka Chan response with Voice (Please Enable VoiceVox Check Box on GUI APP). The commannd Below (choose the one that suits your device):
 
 
     cpu : 
@@ -50,3 +51,7 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
     ```
     docker run --rm --gpus all -p 50021:50021 voicevox/voicevox_engine:nvidia-ubuntu20.04-latest
     ```
+
+## Others
+
+Please note that this program uses Torch with version 2.0.1 CUDA 11.7 support.  However, this program only implements basic Torch so it may work well, but there is no guarantee that it will work with other versions.
