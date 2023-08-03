@@ -54,9 +54,12 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
     ```
 
 ## Others
+This program implements a simple LSTM model with limited data intenses, so there are many limitations in the response. hopefully in the future I can improve this program.
 
 Please note that this program uses Torch with version 2.0.1 CUDA 11.7 support.  However, this program only implements basic Torch so it may work well on other version, but there is no guarantee that it will work.
 
 to customize the data for training can be changed in intents.json, don't forget to retrain in train.py
 
 I am very lazy to design a gui app, so for now this is a rough look. I will focus more on exploring the NPL method later.
+
+Misaka Chan.png image used was created using AI Stable Diffusion. contact me if you have any objections, of course I will delete it.
