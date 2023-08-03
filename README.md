@@ -2,7 +2,7 @@
 
 ![Misaka Chan](example_gui.png)
 
-Virtual AI Imouto Misaka Chan is a simple Virtual AI Little Sister that implements basic NPL using PyTorch.
+Virtual AI Imouto Misaka Chan is a simple Virtual AI Little Sister that implements basic NPL using PyTorch with simple GUI written in python
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Virtual AI Imouto Misaka Chan is a simple Virtual AI Little Sister that implemen
 
 ## Introduction
 
-Virtual AI Imouto Misaka Chan is a fun and interactive project that simulates the role of a little sister, also known as "imouto" in Japanese. The AI is designed to respond to user input using natural language processing techniques. It's a basic implementation of NLP powered by PyTorch. 
+Virtual AI Imouto Misaka Chan is simple ChatBot project that simulates the role of a little sister, also known as "imouto" in Japanese. The AI is designed to respond to user input using natural language processing techniques. It's a basic implementation of NLP powered by PyTorch. 
 
 ## Requirements
 
@@ -54,4 +54,8 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
 
 ## Others
 
-Please note that this program uses Torch with version 2.0.1 CUDA 11.7 support.  However, this program only implements basic Torch so it may work well, but there is no guarantee that it will work with other versions.
+Please note that this program uses Torch with version 2.0.1 CUDA 11.7 support.  However, this program only implements basic Torch so it may work well on other version, but there is no guarantee that it will work.
+
+to customize the data for training can be changed in intents.json, don't forget to retrain in train.py
+
+I am very lazy to design a gui app, so for now this is a rough look. I will focus more on exploring the NPL method later.
