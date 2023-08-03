@@ -1,6 +1,6 @@
 # Virtual AI Imouto Misaka Chan
 
-![Misaka Chan](Example Gui.png)
+![Misaka Chan](example_gui.png)
 
 Virtual AI Imouto Misaka Chan is a simple Virtual AI Little Sister that implements basic NPL using PyTorch.
 
