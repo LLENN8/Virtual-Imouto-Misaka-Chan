@@ -20,7 +20,7 @@ Virtual AI Imouto Misaka Chan is simple ChatBot project that simulates the role 
 - Python 3.11
 - PyTorch (2.0.1+cu117) 
 - Docker for Voicevox 
-- [VoiceVoc](https://voicevox.hiroshiba.jp/)
+- [VoiceVox](https://voicevox.hiroshiba.jp/)
 
 ## Installation
 
