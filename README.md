@@ -36,15 +36,15 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
 5. Run VoiceVox Docker image if you wanna Misaka Chan response with Voice (Please Enable VoiceVox Check Box on GUI APP). The commannd Below (choose the one that suits your device):
 
 
-    cpu : 
+    CPU : 
 
 
     ```
-    docker run --rm -it -p 50021:50021 voicevox voicevox_engine:cpu-ubuntu20.04-latest
+    docker run --rm -it -p 50021:50021 voicevox voicevox_engine:CPU-ubuntu20.04-latest
     ```
 
 
-    gpu : 
+    GPU : 
 
     
     ```
@@ -52,7 +52,7 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
     ```
 
 ## Others
-This program implements a simple LSTM model with limited data intenses, so there are many limitations in the response. hopefully in the future I can improve this program.
+This program implements a simple LSTM model with limited data intense, so there are many limitations in the response. hopefully, in the future, I will improve this program.
 
 Please note that this program uses Torch with version 2.0.1 CUDA 11.7 support.  However, this program only implements basic Torch so it may work well on other version, but there is no guarantee that it will work.
 
