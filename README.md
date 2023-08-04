@@ -1,4 +1,4 @@
-#Virtual AI Imouto Misaka Chan
+# Virtual AI Imouto Misaka Chan
 
 ![Misaka Chan](example_gui.png)
 
