@@ -52,7 +52,7 @@ Follow these steps to install Virtual AI Imouto Misaka Chan:
     ```
 
 ## Others
-This program implements a simple RNN model with limited data intense, so there are many limitations in the response (example chat to get answers can be seen in "pattern" in intents.json). hopefully, in the future, I will improve this program.
+This program implements a simple RNN model with limited data intents, so there are many limitations in the response (example chat to get answers can be seen in "pattern" in intents.json). hopefully, in the future, I will improve this program.
 
 Please note that this program uses Torch with version 2.0.1 CUDA 11.7 support.  However, this program only implements basic Torch so it may work well on other version, but there is no guarantee that it will work.
 
