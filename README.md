@@ -1,4 +1,4 @@
-# Virtual AI Imouto Misaka Chan
+# Virtual Imouto Misaka Chan
 
 ![Misaka Chan](example_gui.png)
 
@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Virtual AI Imouto Misaka Chan is simple ChatBot project that simulates the role of a little sister, also known as "imouto" in Japanese. The AI is designed to respond to user input using natural language processing techniques. It's a basic implementation of NLP powered by PyTorch. 
+Virtual Imouto Misaka Chan is simple ChatBot project that simulates the role of a little sister, also known as "imouto" in Japanese. This designed to respond to user input using natural language processing techniques. It's a basic implementation of NLP powered by PyTorch. 
 
 ## Requirements
 
@@ -22,7 +22,7 @@ Virtual AI Imouto Misaka Chan is simple ChatBot project that simulates the role 
 
 ## Installation
 
-Follow these steps to install Virtual AI Imouto Misaka Chan:
+Follow these steps to install Virtual Imouto Misaka Chan:
 
 1. Clone the repository
 2. Navigate to the project directory: `cd virtual-ai-misaka-chan`
